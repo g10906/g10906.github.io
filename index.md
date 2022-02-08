@@ -1,12 +1,24 @@
-## Welcome to GitHub Pages
+# Welcome to GitHub Pages
 
 # 笔记
 
 ## C++
+
+### c++14 新特性
+refer [C++14新特性的所有知识点全在这儿啦！](https://www.jianshu.com/p/d7652a32984e)
+
 [模板](./cxx/template.md)
-$$
-e^{i\theta}=\cos\theta+i\sin\theta
-$$
+
+
+```c++
+// '弃用' 编译警告(c++14)
+struct [[deprecated]] A{};
+
+// 字面量分隔符
+double b = 3.14'15'926'535'89
+```
+
+
 <!-- ## Labs>
 
 <!-- ### S6.081 -->
