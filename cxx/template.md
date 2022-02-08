@@ -11,6 +11,8 @@ constexpr T pi=T(3.141592653589L);
 ## ... 解包
 ``` c++
 #include<iostream>
+#include <utility>
+
 using namespace std;
 
 /** 递归解包 */
@@ -30,7 +32,7 @@ template<typename T, T... ints>
 void print_sequence(std::integer_sequence<T, ints...> int_seq)
 {
     std::cout << "The sequence of size " << int_seq.size() << ": ";
-    ((std::cout << ints << ' '), ...);
+    ((std::cout << ints << ' '), ...); // pack fold expression (in c++17)
     std::cout << '\n';
 }
 
