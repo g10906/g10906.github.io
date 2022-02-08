@@ -4,7 +4,10 @@
 
 ## C++
 [模板](./cxx/template.md)
-## Labs
+$$
+e^{i\theta}=\cos\theta+i\sin\theta
+$$
+<!-- ## Labs>
 
 <!-- ### S6.081 -->
 
